@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Grand+Hotel&family=Montserrat:wght@100;300;400&family=Poppins:wght@300;400;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Grand+Hotel&family=Montserrat:wght@100;300&family=Poppins:wght@300;400;500&family=Roboto&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+.menuList{
+    display: none;
+}
+.background img{
+    opacity: 0.5;
+}
+
+.social_network_icons img{
+    height: 30px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+#headers{
+    background: black;
+      /* opacity: 0.3; */
+}
+
+.logo img{
+    max-width: 130px;
+}
+
+.hamburger_menu{
+    margin-right: 15px;
+}
+.hamburger_menu img{
+    width: 20%;
+    float: right;
+}
+
+.isnav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.main_subtitle span{
+    font-size: 14px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.main_title_subtilte_btn{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    cursor: pointer;
+}
+
+.main_title span{
+    font-size: 90px;
+    font-family: 'Grand Hotel', cursive;
+    color: orange;
+}
+
+.main_subtitle span{
+    color: #fff;
+}
+
+.main_btn{
+    margin-top: 20px;
+}
+button {
+    background-color: orange;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    border: none; 
+    /* font-weight: bold;  */
+}
+/* //deuxieme section// */
+.section_2_title span:nth-child(1){
+    display: block;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 35px;
+    color: orange;
+}
+.section_2_title span:nth-child(2){
+    font-size: 15px;
+    
+}
+
+.section_2_title{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.section_2_img_container{
+    padding: 20px;
+    margin: 20px 30px 20px 30px;
+    box-shadow: 1px 1px 7px #dadec0;
+    border: 1px solid #ecede6;
+    border-radius: 5px;
+    
+}
+.section_2_main_container{
+    display: block;
+}
+.circle_text_container{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    margin-left: 35%;
+}
+
+.circle_text_container img{
+    /* border-radius: 50%; */
+    transform: translateX(-55%);
+}
+.mytext{
+    padding: 20px;
+    text-align: center;
+}
+
+.mytext span:nth-child(1){
+    display: block;
+    font-size:35px;
+    margin-bottom: 5px;
+    font-family: 'Grand Hotel', cursive;
+}
+
+/* section 3 */
+.splash{
+    display: none;
+}
+.splash_index{
+    display: none;
+}
+#section_3{
+    background-color: #303030;
+    padding: 0px 0px 10px 0px;
+    /* overflow: hidden; */
+    position: relative;
+}
+.circle_image{
+    border-radius: 0px 0px 50% 50%;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    rotate: -90deg;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.circle_image img{
+    transform: translateY(-20%);
+}
+.container{
+    position: relative;
+}
+.oriental_taste_text{
+   position: absolute;
+   top: 10%;
+   left: 60%;
+   color: #fff;
+}
+
+.oriental_taste_text span:nth-child(1){
+    display: block;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+    color: orange;
+}
+
+#button_2{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    cursor: pointer;
+}
+
+.statistic_container{
+    margin-top: 25px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.statistic_container .statistic_text{
+    color: orange;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 45px;
+
+}
+
+.statistic_circle_text{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: relative;
+    margin: 20px;
+}
+
+.statistic_circle_text .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.statistic_circle_text .text span:nth-child(1){
+    color: orange;
+    font-size: 17px;
+}
+
+.stats_container{
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients_background{
+    position: absolute;
+    top: 10%;
+}
+
+.circle_image_index{
+    border-radius: 0px 0px 50% 50%;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    rotate: 90deg;
+    margin-top: 20px;
+    overflow: hidden;
+    float: right;
+    display: block;
+}
+
+#section_4{
+    position: relative;
+}
+.oriental_taste_text_index{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    color: #000;
+    padding: 70px 195px 70px 9px;
+ }
+
+ .oriental_taste_text_index span:nth-child(1){
+    display: block;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+    color: orange;
+}
+
+.button_2_index{
+    background-color: orange;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    border: none; 
+    /* position: absolute; */
+    margin-top: 50px;
+}
+
+.leonre{
+    background-color: orange;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.leonre img{
+    opacity: 0.3;
+}
+.lenore_text_container{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50% -50%);
+
+}
+
+.lenore_text{
+    margin-top: 10px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* section_5 */
+#section_5{
+    text-align: center;
+    position: relative;
+    padding-bottom: 90px;
+   
+}
+
+.mySubscribe_subtitle{
+    padding: 10px;
+}
+.mySubscribe h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 45px;
+    color: orange;
+}
+
+.subscribe_bar{
+    margin-top: 20px;
+    position: relative;
+}
+
+.subscribe_bar input{
+    padding: 10px 30px 10px 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 1px 1px 3px #dadec0;
+    border: none;
+    border: 1px solid #dadec0;
+}
+.subscribe_bar span{
+    padding: 9.5px 30px 9.5px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 1px 1px 3px #dadec0;
+    border: none;
+    border: 1px solid #dadec0;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left: 60%;
+}
+.section_4_background img{
+    position: absolute;
+    top:15%;
+}
+
+#footer{
+    padding: 20px;
+    background-color: #303030;
+    color: white;
+}
+.first_bloc h2{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 30px;
+}
+.services_container span{
+    display: block;
+    margin-bottom: 10px;
+}
+.services_container h3{
+    font-weight: bold;
+}
+.about_container span{
+    display: block;
+    margin-bottom: 10px;
+}
+.about_container h3{
+    font-weight: bold;
+}
+.other_container span{
+    display: block;
+    margin-bottom: 10px;
+}
+.order_container h3{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 800px){
+    .menuList{
+        display: flex;
+        color: #fff;
+        margin:2% 0% 0% 45%;
+    }
+
+    .menuList span{
+        margin-right: 15px;
+    }
+    .footer_container_site_items{
+        display: flex;
+       padding: 10px 30px 0px 30px;
+    }
+    .about_container, .services_container{
+        margin-right: 30px;
+    }
+    #section_5{
+        padding: 20px 50px 60px 50px;
+    }
+    .lenore_text_container{
+        padding: 0px 60px 0px 90px;
+        margin-right: 80px;
+    }
+    .circle_image_index{
+        display: none;
+    }
+    #button_2_index{
+        display: none;
+    }
+    .circle_image{
+        display: none;
+    }
+    .stats_main_container{
+        display: flex;
+        margin: 20px 0px 40px 70px;
+    }
+    .circle_text_container{
+        margin-left: 30%;
+    }
+    
+    .section_2_main_container{
+        display: flex;
+    }
+    .section_2_img_container{
+        box-shadow: none;
+        border: none;
+        border-radius: none;
+    }
+    .mytext{
+        padding: 20px 0px 20px 40px;
+    }
+    
+    .splash{
+        display: block;
+    }
+    .splash_index{
+        display: block;
+    }
+    .splash img{
+        width: 140%;
+        border: 1px solid #fff;
+        height: 140%;
+        position: absolute;
+        top: 148%;
+        left: -10%;
+        rotate: 98deg;
+    }
+    .splash_index img {
+        width: 63%;
+        position: absolute;
+        top: -474px;
+        left: 20%;
+        rotate: 269deg;
+        z-index: 1000;
+    }
+    .section_2_title{
+        padding: 10px 100px 10px 100px;
+    }
+    #section_2{
+        padding: 20% 2% 30% 2%;
+    }
+    /* #section_3{
+        /* background-color: #303030;
+        padding: 0px 0px 10px 0px; */
+        /* overflow: hidden; */
+        /* position: relative; */
+    #section_3{
+        padding: 20% 2% 30% 2%;
+    }
+
+    .hamburger_menu img {
+        display: none;
+      }
+    
+    .social_network_icons img{
+        height: 40px;
+        color: #fff;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .splash_index img {
+        top: -590px; 
+    }
+    .about_container, .services_container {
+        margin-right: 25px;
+      }
+    
+    .footer_container{
+        display: flex;
+    }
+    
+    #footer {
+    padding: 80px 30px 80px 30px;
+    background-color: #303030;
+    color: white;
+    }
+    .first_bloc{
+        width: 50%;
+    }
+    .splash img {
+        width: 140%;
+        border: 1px solid #fff;
+        height: 157%;
+        position: absolute;
+        top: 180%;
+        left: -23%;
+        rotate: 98deg
+    }
+    .stats_main_container {
+        margin: 20px 0px 40px 160px;
+      }
+    .menuList {
+        margin: 2% 0% 0% 75%;
+      }
+
+      .social_network_icons {
+        display: block;
+    }
+}
+ 
+
+
